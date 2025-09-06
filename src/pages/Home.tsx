@@ -35,17 +35,17 @@ const Home = () => {
   const categories = [
     {
       title: 'Electronics',
-      image: 'https://shop-image-sample-bucket.s3.ap-northeast-2.amazonaws.com/products/IT/electrics.png',
+      image: 'https://user19-s3-shoppingmall.s3.ap-northeast-2.amazonaws.com/electrics.jpg',
       description: 'Latest gadgets and devices'
     },
     {
       title: 'Fashion',
-      image: 'https://shop-image-sample-bucket.s3.ap-northeast-2.amazonaws.com/products/fashion/fashion.png',
+      image: 'https://user19-s3-shoppingmall.s3.ap-northeast-2.amazonaws.com/fasion.jpg',
       description: 'Trendy clothing and accessories'
     },
     {
       title: 'Home & Living',
-      image: 'https://shop-image-sample-bucket.s3.ap-northeast-2.amazonaws.com/products/living/living.png',
+      image: 'https://user19-s3-shoppingmall.s3.ap-northeast-2.amazonaws.com/living.jpg',
       description: 'Everything for your home'
     }
   ];
@@ -62,7 +62,7 @@ const Home = () => {
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
-          backgroundImage: 'url(https://shop-image-sample-bucket.s3.ap-northeast-2.amazonaws.com/products/living/living.png)',
+          backgroundImage: 'url(https://user19-s3-shoppingmall.s3.ap-northeast-2.amazonaws.com/living.jpg)',
           height: '60vh',
           display: 'flex',
           alignItems: 'center',
