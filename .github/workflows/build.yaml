@@ -42,7 +42,7 @@ jobs:
             ${{ secrets.ECR_FRONTEND_REPOSITORY }}:latest
       # [Trivy Scan 추가] Docker 이미지 취약점 검사
       - name: Scan Docker image with Trivy
-        uses: aquasecurity/trivy-action@v1
+        uses: quasecurity/trivy-action@v0.13.0
         with:
           image-ref: ${{ secrets.ECR_BACKEND_REPOSITORY }}:${{ github.event.inputs.image_tag }}
           severity: CRITICAL,HIGH   # 심각도 높은 취약점만 실패 처리
