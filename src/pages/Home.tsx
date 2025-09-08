@@ -35,17 +35,17 @@ const Home = () => {
   const categories = [
     {
       title: 'Electronics',
-      image: 'https://user19-s3-shoppingmall.s3.ap-northeast-2.amazonaws.com/electrics.jpg',
+      image: 'https://user19-s3-shoppingmall.s3.ap-northeast-2.amazonaws.com/electrics2.jpg',
       description: 'Latest gadgets and devices'
     },
     {
       title: 'Fashion',
-      image: 'https://user19-s3-shoppingmall.s3.ap-northeast-2.amazonaws.com/fasion.jpg',
+      image: 'https://user19-s3-shoppingmall.s3.ap-northeast-2.amazonaws.com/fasion2.jpg',
       description: 'Trendy clothing and accessories'
     },
     {
       title: 'Home & Living',
-      image: 'https://user19-s3-shoppingmall.s3.ap-northeast-2.amazonaws.com/living.jpg',
+      image: 'https://user19-s3-shoppingmall.s3.ap-northeast-2.amazonaws.com/living2.jpg',
       description: 'Everything for your home'
     }
   ];
